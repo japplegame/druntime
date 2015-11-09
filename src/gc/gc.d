@@ -17,10 +17,10 @@ module gc.gc;
 
 /************** Debugging ***************************/
 
-//debug = PRINTF;               // turn on printf's
-//debug = COLLECT_PRINTF;       // turn on printf's
-//debug = PRINTF_TO_FILE;       // redirect printf's ouptut to file "gcx.log"
-//debug = LOGGING;              // log allocations / frees
+debug = PRINTF;               // turn on printf's
+debug = COLLECT_PRINTF;       // turn on printf's
+debug = PRINTF_TO_FILE;       // redirect printf's ouptut to file "gcx.log"
+debug = LOGGING;              // log allocations / frees
 //debug = MEMSTOMP;             // stomp on memory
 //debug = SENTINEL;             // add underrun/overrrun protection
                                 // NOTE: this needs to be enabled globally in the makefiles
